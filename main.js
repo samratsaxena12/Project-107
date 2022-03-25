@@ -7,4 +7,8 @@ function modelLoaded() {
     classifier.classify(gotResult);
 }
 
-function gotResult() {}
+function gotResult() {
+    console.log("Model Loaded!");
+    console.log("---");
+    console.log("Results will be shown in the next project");
+}
