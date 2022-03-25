@@ -6,3 +6,5 @@ function startClassification() {
 function modelLoaded() {
     classifier.classify(gotResult);
 }
+
+function gotResult() {}
